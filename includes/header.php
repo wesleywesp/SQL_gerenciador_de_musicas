@@ -11,6 +11,7 @@
         <a href="add_album.php">Adicionar Álbum</a> |
         <a href="add_musica.php">Adicionar Música</a> |
         <a href="view_albuns.php">Visualizar Álbuns</a>|
-        <a href="view_musicas.php">Visualizar Músicas</a>
+        <a href="view_musicas.php">Visualizar Músicas</a>|
+        <a href="../backup_script/backup.php">Fazer o Backup</a>
     </nav>
     <hr>

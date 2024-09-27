@@ -1,3 +1,21 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Sistema de Música</title>
+</head>
+<body>
+    <h1>Sistema de Gerenciamento de Música</h1>
+    <nav>
+        <a href="../public/index.php">Página Inicial</a> |
+        <a href="../public/add_album.php">Adicionar Álbum</a> |
+        <a href="../public/add_musica.php">Adicionar Música</a> |
+        <a href="../public/view_albuns.php">Visualizar Álbuns</a>|
+        <a href="../public/view_musicas.php">Visualizar Músicas</a>|
+
+    </nav>
+    <hr>
 <?php
 // Caminho completo para o mysqldump
 $mysqldump_path = '/Applications/MAMP/Library/bin/mysql57/bin/mysqldump';
@@ -23,4 +41,5 @@ if ($output === 0) {
     echo "Erro ao realizar o backup.";
 }
 ?>
+
 
